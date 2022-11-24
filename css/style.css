@@ -6,9 +6,18 @@ body{
   letter-spacing: 0.5px;
 }
 .site-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #ffffff;
 }
+.site-header__content{
+  display: flex;
+  align-items: center;
+
+}
 .sitenav-links{
+  display: flex;
   list-style: none;
 }
 .sitenav-link a{
@@ -32,6 +41,9 @@ body{
 /* hero section */
 .hero{
   background-color: rgba(37, 36, 32, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .line{
   width: 80px;

@@ -110,9 +110,10 @@ body{
 .line{
   width: 80px;
   height: 3px;
+  border: 0;
+  margin: 0;
+  margin-bottom: 40px;
   background: #FF7500;
-  border: none;
-  margin-bottom: 24px;
 }
 .hero-heading{
   font-family: 'Roboto Condensed';
